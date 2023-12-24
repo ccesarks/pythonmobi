@@ -3,6 +3,8 @@ on:
   push:
 
 jobs:
+  my_first_job:
+    name: My first job
 # Build job. Builds app for Android with Buildozer
 build-android:
   name: Build for Android
